@@ -1,5 +1,5 @@
 {
-  "homepage": "https://harkunovdmytro.github.io/react-interval-repeating-app",
+  "homepage": "https://harkunovdmytro.github.io/react-interval-repeating-app/",
   "name": "react-interval-repeating-app",
   "version": "0.1.0",
   "private": true,
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
